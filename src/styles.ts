@@ -22,6 +22,18 @@ export const Container = styled.main<Main>`
   `}
 `;
 
+export const Title = styled.h2`
+  position: absolute;
+  right: 10px;
+  top: -5px;
+
+  z-index: 1;
+
+  font-family: sans-serif;
+  color: #fafafa;
+  opacity: 0.7;
+`;
+
 export const Message = styled.h1`
   position: absolute;
   color: #fff;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { DayPeriod, getDayPeriod } from 'utils/getDayPeriod';
 import api from 'services/api';
-import { Container, Image, Message } from 'styles';
+import { Container, Title, Image, Message } from 'styles';
 import getMessage from 'utils/getMessage';
 import { useTransition } from 'react-spring';
 import { apiKey, searchEngineId } from './credentials/google-search';
@@ -66,6 +66,7 @@ const App: React.FC = () => {
 
   return backgroundImage ? (
     <Container period={dayPeriod}>
+      <Title>Hi-City</Title>
       <Message>{getMessage(dayPeriod)}!</Message>
 
       {backgroundTransition(
