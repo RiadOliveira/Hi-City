@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { DayPeriod, getDayPeriod } from 'utils/getDayPeriod';
 import api from 'services/api';
-import { Container, Title, Image, Message } from 'styles';
 import getMessage from 'utils/getMessage';
+import { DayPeriod, getDayPeriod } from 'utils/getDayPeriod';
+import { Container, Title, Image, Message } from 'styles';
 import { useTransition } from 'react-spring';
-import { apiKey, searchEngineId } from './credentials/google-search';
 import offlineImages from './utils/offlineImages.json';
+import { apiKey, searchEngineId } from './credentials/google-search';
 
 const App: React.FC = () => {
   const [dayPeriod, setDayPeriod] = useState<DayPeriod>(
@@ -14,7 +14,6 @@ const App: React.FC = () => {
   const [offlineMode, setOfflineMode] = useState<undefined | boolean>(
     undefined,
   );
-
   const [backgroundImage, setBackgroundImage] = useState('');
 
   const backgroundTransition = useTransition(backgroundImage, {
@@ -30,16 +29,17 @@ const App: React.FC = () => {
     },
   });
 
-  useEffect(() => {
-    // eslint-disable-next-line no-alert
-    setOfflineMode(window.confirm('Gostaria de utilizar o modo offline?'));
-  }, []);
+  useEffect(
+    () =>
+      // eslint-disable-next-line no-alert
+      setOfflineMode(window.confirm('Gostaria de utilizar o modo offline?')),
+    [],
+  );
 
   useEffect(() => {
     if (offlineMode !== undefined) {
-      if (offlineMode) {
-        setBackgroundImage(offlineImages[dayPeriod]);
-      } else {
+      if (offlineMode) setBackgroundImage(offlineImages[dayPeriod]);
+      else {
         api
           .get(
             `?key=${apiKey}&searchType=image&num=1&imgSize=huge&cx=${searchEngineId}&q=City ${dayPeriod}`,
@@ -56,10 +56,7 @@ const App: React.FC = () => {
   useEffect(() => {
     setInterval(() => {
       const actualPeriod = getDayPeriod(new Date());
-
-      if (actualPeriod !== dayPeriod) {
-        setDayPeriod(actualPeriod);
-      }
+      if (actualPeriod !== dayPeriod) setDayPeriod(actualPeriod);
     }, 60000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
