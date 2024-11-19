@@ -62,7 +62,7 @@ Tools used on this project:
 
 </br>
 
-<h2 id="screenshot">:camera: Screen Shot Example (Evening)</h2>
+<h2 id="screenshot">:camera: Screenshot Example (Evening)</h2>
 
 ![image](https://user-images.githubusercontent.com/69125013/149238980-e3f24b19-3326-4eeb-a9de-4b04bcb83b98.png)
 
