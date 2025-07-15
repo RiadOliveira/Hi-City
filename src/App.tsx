@@ -51,7 +51,7 @@ const App: React.FC = () => {
   return (
     <Container period={dayPeriod}>
       <Title>Hi-City</Title>
-      <Message>{getPeriodMessage(dayPeriod)}!</Message>
+      <Message>{getPeriodMessage(dayPeriod)}</Message>
 
       {backgroundTransition(
         (style, item) =>

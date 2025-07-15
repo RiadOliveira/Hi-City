@@ -1,1 +1,1 @@
-export type DayPeriod = 'day' | 'afternoon' | 'evening' | 'night';
+export type DayPeriod = 'Morning' | 'Afternoon' | 'Evening' | 'Night';

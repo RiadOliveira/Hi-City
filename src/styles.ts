@@ -35,13 +35,13 @@ export const Title = styled.h2`
 `;
 
 export const Message = styled.h1`
-  position: absolute;
   color: #fff;
   font-size: 72px;
 
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 10px;
+  margin-inline: 8px;
 
   z-index: 1;
   font-family: sans-serif;
@@ -50,17 +50,19 @@ export const Message = styled.h1`
   @keyframes enterMessage {
     0% {
       opacity: 0;
-      font-size: 36px;
+      transform: scale(0.7);
     }
     100% {
       opacity: 1;
-      font-size: 72px;
+      transform: scale(1);
     }
   }
 `;
 
 export const Image = styled(animated.img)`
-  width: 100vw;
-  height: 100vh;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 `;
