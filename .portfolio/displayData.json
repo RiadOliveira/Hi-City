@@ -1,0 +1,29 @@
+{
+  "title": "Hi City",
+  "extendedDescription": "Hi City is a simple welcome page application that dynamically changes the title and background based on the user's current time. It was developed using Google's Custom Search API to fetch background images.",
+  "imageId": "2c354631-85ee-4309-b9be-57fbdad98df9",
+  "highlightColor": "sky",
+  "attachmentsUrl": true,
+  "technologies": [
+    "React",
+    "TypeScript",
+    "StyledComponents"
+  ],
+  "features": [
+    {
+      "name": "Time-based Greeting",
+      "description": "Dynamic welcome messages that adapt to the time of day.",
+      "icon": "clock"
+    },
+    {
+      "name": "Background Customization",
+      "description": "Automatic background updates based on the user's local time.",
+      "icon": "image"
+    },
+    {
+      "name": "Google API Integration",
+      "description": "Real-time background fetching with Google Custom Search API.",
+      "icon": "cloud"
+    }
+  ]
+}
