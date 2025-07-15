@@ -1,4 +1,4 @@
-<h1 align="center">Hi-City</h1>
+<h1 align="center">Hi City</h1>
 
 <p align="center">
   Hi-City is a simple welcome page application that dynamically changes the title and background based on the user's current time. It was developed using Google's Custom Search API to fetch background images.
