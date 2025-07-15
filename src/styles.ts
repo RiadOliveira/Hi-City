@@ -62,4 +62,5 @@ export const Message = styled.h1`
 export const Image = styled(animated.img)`
   width: 100vw;
   height: 100vh;
+  object-fit: cover;
 `;
