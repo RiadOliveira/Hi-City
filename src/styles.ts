@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import { DayPeriod } from 'utils/getDayPeriod';
 import { animated } from 'react-spring';
-import backgroundGradients from './utils/backgroundGradients.json';
+import { DayPeriod } from 'types/DayPeriod';
+import { IMAGES_DATA } from 'constants/imagesData';
 
 interface Main {
   period: DayPeriod;
@@ -18,7 +18,7 @@ export const Container = styled.main<Main>`
   justify-content: center;
 
   ${({ period }) => css`
-    ${backgroundGradients[period]}
+    ${IMAGES_DATA[period].gradient}
   `}
 `;
 
@@ -45,7 +45,7 @@ export const Message = styled.h1`
 
   z-index: 1;
   font-family: sans-serif;
-  animation: 2s enterMessage;
+  animation: 1.2s enterMessage;
 
   @keyframes enterMessage {
     0% {

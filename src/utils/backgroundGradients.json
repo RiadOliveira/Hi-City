@@ -1,6 +1,0 @@
-{
-  "day": "background: rgb(255,239,86); background: linear-gradient(90deg, rgba(255,239,86,1) 0%, rgba(222,145,44,1) 35%, rgba(201,55,55,1) 100%);",
-  "afternoon": "background: rgb(255,122,86); background: linear-gradient(90deg, rgba(255,122,86,1) 0%, rgba(235,165,73,1) 35%, rgba(31,110,161,1) 100%);",
-  "evening": "background: rgb(31,110,161); background: linear-gradient(90deg, rgba(31,110,161,1) 0%, rgba(12,73,145,1) 35%, rgba(4,39,82,1) 100%);",
-  "night": "background: rgb(6,49,102); background: linear-gradient(90deg, rgba(6,49,102,1) 0%, rgba(5,35,73,1) 35%, rgba(0,0,0,1) 100%);"
-}
