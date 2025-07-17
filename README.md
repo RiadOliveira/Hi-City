@@ -4,8 +4,8 @@
   Hi City is a simple welcome page application that dynamically changes the title and background based on the user's current time. It was developed using Google's Custom Search API to fetch background images.
 </p>
 
-![image](https://github.com/user-attachments/assets/2c354631-85ee-4309-b9be-57fbdad98df9)
-![image](https://img.shields.io/github/license/RiadOliveira/Hi-City)
+![Preview](https://github.com/user-attachments/assets/2c354631-85ee-4309-b9be-57fbdad98df9)
+![License](https://img.shields.io/github/license/RiadOliveira/Hi-City)
 
 <br/>
 
@@ -77,19 +77,19 @@ $ npm start
 
 <h3 id="morning">Morning</h3>
 
-![image](https://github.com/user-attachments/assets/bb906918-d7e4-4f7f-afe9-21f43e8f4db0)
+![Morning](https://github.com/user-attachments/assets/bb906918-d7e4-4f7f-afe9-21f43e8f4db0)
 
 <h3 id="afternoon">Afternoon</h3>
 
-![image](https://github.com/user-attachments/assets/8d00ede5-0e4e-4d67-8d39-576a8b2aec80)
+![Afternoon](https://github.com/user-attachments/assets/8d00ede5-0e4e-4d67-8d39-576a8b2aec80)
 
 <h3 id="evening">Evening</h3>
 
-![image](https://github.com/user-attachments/assets/2c354631-85ee-4309-b9be-57fbdad98df9)
+![Evening](https://github.com/user-attachments/assets/2c354631-85ee-4309-b9be-57fbdad98df9)
 
 <h3 id="night">Night</h3>
 
-![image](https://github.com/user-attachments/assets/8a8354b1-8f4a-4e42-8716-517d59c76fc4)
+![Night](https://github.com/user-attachments/assets/8a8354b1-8f4a-4e42-8716-517d59c76fc4)
 
 <h2 id="license">📝 License</h2>
 This project is MIT Licensed. See <a href="https://github.com/RiadOliveira/Hi-City/blob/main/LICENSE">LICENSE</a> file for more details.
@@ -109,7 +109,8 @@ This project is MIT Licensed. See <a href="https://github.com/RiadOliveira/Hi-Ci
 ## 🌐 Socials
 
 <div id="socials">
-  <a href = "mailto:riad.oliveira@hotmail.com"><img class="badge" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"/></a>
-  <a href = "mailto:riad.oliveira@gmail.com"><img class="badge" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"/></a>
-  <a href="https://www.linkedin.com/in/ríad-oliveira" target="_blank"><img class="badge" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/></a>
+  <a href="https://portfolio-riadoliveira.vercel.app"><img class="badge" src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio" target="_blank"></a>
+  <a href = "mailto:riad.oliveira@hotmail.com"><img class="badge" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="E-mail" target="_blank"/></a>
+  <a href = "mailto:riad.oliveira@gmail.com"><img class="badge" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" target="_blank"/></a>
+  <a href="https://www.linkedin.com/in/ríad-oliveira" target="_blank"><img class="badge" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" target="_blank"/></a>
 </div>
